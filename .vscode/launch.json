@@ -1,0 +1,65 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Unit02 (Dice)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Unit02",
+            "program": "${workspaceFolder}/Unit02/bin/Debug/net6.0/Unit02.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Unit02",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Unit03 (Seeker)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Unit03",
+            "program": "${workspaceFolder}/Unit03/bin/Debug/net6.0/Unit03.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Unit03",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Unit04 (Rfk)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Unit04",
+            "program": "${workspaceFolder}/Unit04/bin/Debug/net6.0/Unit04.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Unit04",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Unit05 (Snake)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Unit05",
+            "program": "${workspaceFolder}/Unit05/bin/Debug/net6.0/Unit05.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Unit05",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Unit06 (Batter)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Unit06",
+            "program": "${workspaceFolder}/Unit06/bin/Debug/net6.0/Unit06.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Unit06",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        }
+    ]
+}
