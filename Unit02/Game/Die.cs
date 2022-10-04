@@ -40,15 +40,7 @@ namespace Unit02.Game
         Random rnd = new Random();
         value = rnd.Next(1, 7);
 
-        if (value == 5) {
-            points = 50;
-        }
-        else if (value == 1) {
-            points = 100;
-        }
-        else {
-            points = 0;
-        }
+        points = (value == 1) ? 100 : (value == 5) ? 50: 0;
 
         }
 
