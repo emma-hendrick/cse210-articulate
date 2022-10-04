@@ -20,11 +20,12 @@ namespace Unit02.Game
 
     // 2) Create the class constructor. Use the following method comment.
 
-        public void Book() { 
+        public Die() { 
         /// <summary>
         /// Constructs a new instance of Die.
         /// </summary>
 
+            Roll();
 
         }
     
