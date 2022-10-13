@@ -22,16 +22,19 @@ arrow or "start debugging" button.
 ## Project Structure
 The project files and folders are organized as follows:
 ```
-root                    (project root folder)
-+-- Game                (source code folder)
-+-- Program.cs          (program entry point)    
-+-- README.md           (general info)
-+-- Unit03.csproj       (dotnet project file)
+root                        (project root folder)
++-- Game                    (source code folder)
++-- +-- Director.cs         (director class)
++-- +-- Hider.cs            (hider class)
++-- +-- Seeker.cs           (seeker class)
++-- +-- TerminalService.cs  (terminal service class)
++-- Program.cs              (program entry point)    
++-- README.md               (general info)
++-- Unit03.csproj           (dotnet project file)
 ```
 
 ## Required Technologies
 * dotnet 6.0
 
 ## Authors
-* Matt Manley (manleym@byui.edu)
-* Scott Burton (burtons@byui.edu)
+* Michael Hendrick (mhendrick@byui.edu)
